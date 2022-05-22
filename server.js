@@ -13,6 +13,8 @@ import express from 'express';
 import http from  'http';
 import path  from "path";
 
+const __dirname=path.resolve();
+
 
 const port =process.env.PORT||4000;
 const app=express();
