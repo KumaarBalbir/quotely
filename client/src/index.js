@@ -8,7 +8,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
   //paste link of graphql server
-  uri: "http://localhost:4000/graphql",
+  uri: "https://quotely-3khf.onrender.com/graphql",
   cache: new InMemoryCache(),
   headers: {
     authorization: localStorage.getItem("token") || "",
