@@ -1,15 +1,15 @@
 {
-  "name": "mern-project-1",
+  "name": "Quotely",
   "version": "1.0.0",
-  "description": "this is mern project 1",
-  "main": "index.js",
+  "description": "This is a quote publishing and exploring web application",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
      "start":"node server.js"
   },
-  "author": "kumaar balbir",
-  "license": "ISC",
+  "author": "Balbir",
+  "license": "MIT",
   "dependencies": {
     "apollo-server": "^3.5.0",
     "apollo-server-core": "^3.5.0",
