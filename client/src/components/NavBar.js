@@ -8,7 +8,7 @@ export default function NavBar() {
     <nav>
       <div className="nav-wrapper #81d4fa light-blue lighten-3">
         <Link to="/" className="brand-logo left">
-          Quote App
+          Quotely
         </Link>
         <ul id="nav-mobile" className="right">
           {token ? (
